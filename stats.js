@@ -1,5 +1,7 @@
 const os = require('os')
 
+const log = require('./logger')
+
 setInterval(() => {
     const { freemem, totalmem } = os
 
@@ -14,6 +16,6 @@ setInterval(() => {
         usage: `${percents}%` 
     }
        
-    console.clear
-    console.table(stats)
+    log(`${JSON.stringify(stats)} \n`) 
+
 }, 1000)
