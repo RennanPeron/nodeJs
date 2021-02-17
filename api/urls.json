@@ -2,15 +2,19 @@
     "urls": [
         {
             "name": "Rocketseat",
-            "url": "http://rocketseat.com.br"
+            "url": "http://rocketseat.com.br/"
+        },
+        {
+            "name": "Discord",
+            "url": "http://discord.com/"
         },
         {
             "name": "Google",
-            "url": "http://google.com"
+            "url": "http://google.com/"
         },
         {
             "name": "Youtube",
-            "url": "http://youtube.com"
+            "url": "http://youtube.com/"
         }
     ]
 }
